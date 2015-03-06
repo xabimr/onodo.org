@@ -69,6 +69,43 @@ h1,h2,h3,h4,h5{
       color: mix( @brand-secondary, @brand-primary, 50% );
     }
   }
+
+  .lang-selector{
+    position: absolute;
+    top: 32px;
+    right: 0;
+
+    .navbar-nav{
+      float: left;
+      margin: 0;
+   
+      > li{
+        float: left;
+        border-right: 1px solid mix( @brand-secondary, @brand-primary, 50% );
+        margin-left: 12px;
+
+        &:last-child{
+          border: none;
+        }
+      
+        > a{
+          color: @brand-secondary;
+          padding: 0 12px 0 0;
+          font-weight: 500;
+          text-shadow: 1px 1px 0 @jumbotron-bg, 0 0 6px @jumbotron-bg, 0 0 18px @jumbotron-bg;
+
+          &.active{
+            font-weight: 700;
+          }
+
+          &:hover{
+            color: @brand-primary;
+            background: none;
+          }
+        }
+      }
+    }
+  }
 }
 
 .main{

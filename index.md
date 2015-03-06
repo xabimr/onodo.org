@@ -60,7 +60,7 @@ title: Home
     <hr>
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
-        <p class="partners-title">Financiado por:</p>
+        <p class="partners-title">Financiado por</p>
         <a href="http://www.chest-project.eu/" class="icon" target="_blank" title="CHEST (Collective enHanced Environment for Social Tasks)"><img src="{{ site.baseurl }}/public/img/logo-chest.png"></a>
         <p class="partner"><a href="http://www.chest-project.eu/" target="_blank" title="CHEST (Collective enHanced Environment for Social Tasks)">CHEST</a> (Collective enHanced Environment for Social Tasks) es un proyecto de Investigación y Desarrollo durante 30 meses, con apoyo del 7º Programa Marco de la Comisión Europea, para promover el desarrollo de innovaciones digitales con potencial para producir cambios sociales fundamentales. Además de crear una plataforma de comunidad online que facilitará el intercambio de ideas, el proyecto CHEST invertirá hasta 2,5 millones de euros de capital semilla en tecnologías, conceptos y sistemas digitales altamente innovadores para abordar retos sociales específicos.</p>
       </div>

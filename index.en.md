@@ -52,17 +52,17 @@ title: Home
     <hr>
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
-        <p class="partners-title">Con la colaboración de</p>
+        <p class="partners-title">With the collaboration of</p>
         <a href="http://www.barcelonamedia.org" class="icon" target="_blank" title="Barcelona Media"><img src="{{ site.baseurl }}/public/img/logo-barcelonamedia.png"></a>
-        <p class="partner"><a href="http://www.barcelonamedia.org" target="_blank" title="Barcelona Media">Barcelona Media</a> es un centro internacional de innovación e investigación interdisciplinar pionero en el desarrollo de soluciones creativas y fiables en el ámbito de la comunicación y los media, que transfiere sus conocimientos a campos tan diversos como la educación, la movilidad, la seguridad, el turismo y la cultura. Barcelona Media es miembro de la red de centros tecnológicos avanzados <a href="http://accio.gencat.cat/cat/innovacio-tecnologica/tecnio/index.jsp" target="_blank" title="TECNIO">TECNIO</a> y de ARTIC-Instituto Catalán de Investigación Aplicada, Innovación y Creatividad Tecnológica.</p>
+        <p class="partner"><a href="http://www.barcelonamedia.org" target="_blank" title="Barcelona Media">Barcelona Media</a> is a centre for advanced technology dedicated to applied research and the transfer of knowledge and technology as a means to boost the competitiveness of the media and communications sector. The advances made by Barcelona Media in the field of communications can be applied in many sectors, such as health and safety, the automotive industry, medicine and mobility. Barcelona Media is a member of <a href="http://accio.gencat.cat/cat/innovacio-tecnologica/tecnio/index.jsp" target="_blank" title="TECNIO">TECNIO</a>, a network that brings together the main expert agents in applied research and technology transfer in Catalonia and ARTIC, The Catalan Institute of Applied Research, Technology Innovation and Creativity.</p>
       </div>
     </div>
     <hr>
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
-        <p class="partners-title">Financiado por:</p>
+        <p class="partners-title">Funded by</p>
         <a href="http://www.chest-project.eu/" class="icon" target="_blank" title="CHEST (Collective enHanced Environment for Social Tasks)"><img src="{{ site.baseurl }}/public/img/logo-chest.png"></a>
-        <p class="partner"><a href="http://www.chest-project.eu/" target="_blank" title="CHEST (Collective enHanced Environment for Social Tasks)">CHEST</a> (Collective enHanced Environment for Social Tasks) es un proyecto de Investigación y Desarrollo durante 30 meses, con apoyo del 7º Programa Marco de la Comisión Europea, para promover el desarrollo de innovaciones digitales con potencial para producir cambios sociales fundamentales. Además de crear una plataforma de comunidad online que facilitará el intercambio de ideas, el proyecto CHEST invertirá hasta 2,5 millones de euros de capital semilla en tecnologías, conceptos y sistemas digitales altamente innovadores para abordar retos sociales específicos.</p>
+        <p class="partner"><a href="http://www.chest-project.eu/" target="_blank" title="CHEST (Collective enHanced Environment for Social Tasks)">CHEST</a> (Collective enHanced Environment for Social Tasks) is a 30-month collaborative project co-financed with support from the European Commission through FP7. The aim of the project is to provide a forum that will enable entrepreneurs and innovators from across the EU to propose new solutions that have the potential to address key societal challenges, so called ‘social innovation’. In addition to the creation of an online community platform that will facilitate the sharing and exchanging of ideas, CHEST will invest up to €2.5 Million in highly innovative ideas through the launch of three open funding rounds.</p>
       </div>
     </div>
   </div>
