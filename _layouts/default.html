@@ -19,11 +19,11 @@
       <div class="lang-selector">
         <ul class="nav navbar-nav">
           {% if page.language == "es" %}
-          <li><a class="active" href="/" title="Español">ES</a></li>
-          <li><a href="/en" title="English">EN</a></li>
+          <li><a class="active" href="{{ site.baseurl }}" title="Español">ES</a></li>
+          <li><a href="{{ site.baseurl }}/en" title="English">EN</a></li>
           {% else %}
-          <li><a href="/" title="Español">ES</a></li>
-          <li><a class="active" href="/en" title="English">EN</a></li>
+          <li><a href="{{ site.baseurl }}" title="Español">ES</a></li>
+          <li><a class="active" href="{{ site.baseurl }}/en" title="English">EN</a></li>
           {% endif %}
         </ul>
       </div>
