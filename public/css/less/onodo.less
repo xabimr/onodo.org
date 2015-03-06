@@ -1,0 +1,278 @@
+@import "bootstrap/bootstrap.less";
+//@import "fonts.less";
+
+/*
+// https://color.adobe.com/es/packaging-color-theme-4032968/edit/?copy=true&base=3&rule=Custom&selected=0&name=Copia%20de%20packaging&mode=rgb&rgbvalues=0.858824,0.286275,0.368627,1,1,1,0.568627,0.831373,0.854902,0.254902,0.52549,0.560784,0.262745,0.203922,0.317647&swatchOrder=0,1,2,3,4
+@brand-primary: #41868F;
+@brand-secondary: #DB495E;
+@jumbotron-bg: mix( #91D4DA, white, 30% );
+
+// https://color.adobe.com/es/Tonos-azules-color-theme-5512333/edit/?copy=true&base=0&rule=Custom&selected=4&name=Copia%20de%20Tonos%20azules&mode=rgb&rgbvalues=0.023529411764705882,0.22714755795262373,0.25,0.09803921568627451,0.4713874408859465,0.5,0.2901960784313726,0.6979414933435532,0.75,0.5176470588235295,0.8650161183234364,0.9,0.7803921568627451,0.9658810291101909,1&swatchOrder=0,1,2,3,4
+@brand-primary: #063A40;
+@jumbotron-bg:  mix( #C7F6FF, white, 60% );  
+
+// https://color.adobe.com/es/cocina-color-theme-4032998/edit/?copy=true&base=3&rule=Custom&selected=0&name=Copia%20de%20cocina&mode=rgb&rgbvalues=0.419608,0.623529,0.643137,0.854902,0.847059,0.8,0.568627,0.568627,0.537255,0.34902,0.341176,0.298039,0.929412,0.356863,0.254902&swatchOrder=0,1,2,3,4
+@brand-primary: #6B9FA4;
+@brand-secondary: #ED5B41;
+@jumbotron-bg: mix( #DAD8CC, white, 50% );
+
+// https://color.adobe.com/es/Tema-1-color-theme-4826906/edit/?copy=true&base=2&rule=Custom&selected=1&name=Copia%20de%20Tema%201&mode=rgb&rgbvalues=0.960784,0.823529,0.8,0.294118,0.686275,0.72549,0.188235,0.513726,0.552941,0.611765,0.643137,0.631373,0.772549,0.796078,0.776471&swatchOrder=0,1,2,3,4
+@brand-primary: #4BAFB9;
+@brand-secondary: #30838D;
+@jumbotron-bg: mix( #F5D2CC, white, 30% );
+*/
+
+// https://color.adobe.com/es/Blue-Romance-color-theme-4014038/edit/?copy=true
+@text-color: #423628;
+@brand-primary: #9dd9e5;  //mix( #73C3DA, #C6EEF0, 50% );
+@brand-secondary: #297B96;  //#3090B0;  // #349BBE;
+@jumbotron-bg: #f9f3ed;  //mix( #ECF2E6, white, 70% );
+
+//@font-family-sans-serif: "Droid Sans", Helvetica, Arial, sans-serif;
+@font-family-titles: "Exo", Helvetica, Arial, sans-serif;
+
+body{
+  //font-size: 1.25em;
+}
+
+h1,h2,h3,h4,h5{
+  color: @brand-secondary;
+  font-family: @font-family-titles;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+@navbar-height: 64px;
+
+.navbar{
+  border: none;
+  margin-bottom: 0;
+  background: transparent;
+  height: 0;
+  min-height: 0;
+  overflow: visible;
+
+  .navbar-brand{
+    padding: 8px 12px;
+    
+    h1{
+      color: @brand-secondary;
+      margin: 0;
+      padding-left: 55px;
+      font-size: 42px;
+      line-height: 5+@navbar-height;
+      text-transform: lowercase;
+      background: url(../img/onodo-icon.png) no-repeat 0 5px;
+    }
+
+    &:hover h1{
+      color: mix( @brand-secondary, @brand-primary, 50% );
+    }
+  }
+}
+
+.main{
+  //padding-top: @navbar-height;
+}
+
+.jumbotron{
+
+  background: url(../img/onodo-bg.jpg) no-repeat center center @jumbotron-bg;
+  text-shadow: 1px 1px 0 @jumbotron-bg, 0 0 6px @jumbotron-bg, 0 0 18px @jumbotron-bg;
+  padding-top: 86px;
+  margin-bottom: 0;
+
+  h2{
+    font-size: 38px;
+    margin-bottom: @grid-gutter-width;
+  }
+
+  p{
+    line-height: 1.5em;
+    font-weight: 600;
+
+    small{
+      display: block;
+      font-weight: 400;
+      font-size: 90%;
+      line-height: 1.5em;
+      margin-bottom: 40px;
+    }
+
+    a{
+      color: @text-color;
+      font-weight: 600;
+
+      &:hover,
+      &:focus{
+        color: @brand-secondary;
+        text-decoration: none; 
+      }
+    }
+  }
+}
+
+.main-description{
+  padding-top: 2*@grid-gutter-width;
+  padding-bottom: @grid-gutter-width;
+  text-align: center;
+
+  h3{
+    font-size: 28px;
+    margin-bottom: @grid-gutter-width/2;
+  }
+
+  .main-description-item{
+
+    .icon{
+      display: block;
+      width: 64px;
+      height: 64px;
+      overflow: hidden;
+      margin: 0 auto;
+      background: url(../img/icons.png) no-repeat 0 0 transparent;
+
+      &.icon-abierta{
+        background-position: 0 -128px;
+      }
+      &.icon-replicable{
+        background-position: 0 -64px;
+      }
+    }
+
+    p{
+      padding: 0 @grid-gutter-width/2;
+    }
+  }
+
+  .well{
+    border: none;
+    border-radius: 8px;
+    margin: @grid-gutter-width;
+    background: @jumbotron-bg;
+    .box-shadow(inset 0 0 0 rgba(0,0,0,0));
+
+    > a{
+      color: @brand-secondary;
+      font-weight: 600;
+
+      &:hover{
+        text-decoration: none;
+        color: @text-color;
+      }
+    }
+  }
+}
+
+.partners{
+  padding: @grid-gutter-width 0 2*@grid-gutter-width;
+  background-color: mix( @brand-primary, white, 40% );
+  text-align: center;
+
+  hr{
+    border-color: @brand-primary;
+  }
+
+  .partners-title{
+    color: @brand-secondary;
+    font-weight: 600;
+    margin: @grid-gutter-width/2 0;
+  }
+
+  .icon{
+    display: block;
+    margin: @grid-gutter-width 0;
+
+    &:hover{
+      opacity: 0.7;
+    }
+  }
+
+  .partner{
+    padding: 0 @grid-gutter-width;
+
+    > a{
+      color: @text-color;
+      font-weight: bold;
+
+      &:hover{
+        text-decoration: none;
+        color: @brand-secondary;
+      }
+    }
+  }
+
+  h4{
+    font-size: 24px;
+    margin: @grid-gutter-width/3 0;
+
+    a{
+      color: @text-color;
+
+      &:hover{
+        text-decoration: none;
+        color: @brand-secondary;
+      }
+    }
+  }
+}
+
+.footer{
+  color: white;
+  font-size: 0.913em;
+  font-weight: 300;
+  background: @brand-secondary; 
+  padding: @grid-gutter-width 0;
+  letter-spacing: 0.02em;
+  line-height: 1.6em;
+
+  .credits{
+    margin: 0;
+  }
+
+  .logo-eu{
+    margin-left: @grid-gutter-width/2;
+  }
+}
+
+@media (min-width: 1420px) {
+
+  .jumbotron{
+    background-position: right center;
+  }
+}
+
+@media (max-width: @screen-sm-max) {
+  
+  .jumbotron h2{
+    font-size: 36px;
+  }
+
+  .main-description{
+    padding-top: 40px;
+  }
+
+  .main-description-item{
+    border-bottom: 1px solid @brand-primary;
+    padding-bottom: @grid-gutter-width/2;
+    margin-bottom: @grid-gutter-width;
+  }
+
+  .main-description .well {
+    margin: 0 30px;
+  }
+
+  .footer{
+    text-align: center;
+
+    .text-right{
+      text-align: center;
+    }
+
+    .logo-eu{
+      float: none !important;
+      display: block;
+      margin: @grid-gutter-width auto @grid-gutter-width/2;
+    }
+  }
+}

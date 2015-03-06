@@ -1,0 +1,25 @@
+# Multiple languages
+gems:             ['jekyll-multiple-languages']
+
+languages:        ['es', 'en']
+
+fill_default_content: true
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Onodo
+tagline:          Análisis de redes para todos
+url:              https://github.com/civio
+baseurl:          /onodo.org
+author:
+  name:           Civio
+  url:            https://civio.es
+  email:          contacto@civio.es
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/civio/onodo.org
