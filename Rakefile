@@ -4,6 +4,7 @@ require "tmpdir"
 require "bundler/setup"
 require "jekyll"
 
+# From http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html
 
 # Change your GitHub reponame
 GITHUB_REPONAME = "civio/onodo.org"
