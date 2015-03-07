@@ -12,8 +12,8 @@ relative_permalinks: true
 # Setup
 title:            Onodo
 tagline:          Análisis de redes para todos
-url:              https://github.com/civio
-baseurl:          /onodo.org
+url:              https://onodo.org
+baseurl:          
 author:
   name:           Civio
   url:            https://civio.es
