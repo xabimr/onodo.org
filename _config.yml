@@ -1,8 +1,5 @@
 # Multiple languages
-# 20150306: This was breaking my build, don't know why. And the official way
-# of including the plugin is through the _plugins/ folder, so we do that.
-# See https://github.com/screeninteraction/jekyll-multiple-languages-plugin
-#gems:             ['jekyll-multiple-languages']
+gems:             ['jekyll/multiple/languages/plugin']
 
 languages:        ['es', 'en']
 
