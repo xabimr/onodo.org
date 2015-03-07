@@ -1,5 +1,5 @@
 # Multiple languages
-gems:             ['jekyll/multiple/languages/plugin']
+gems:             ['jekyll-multiple-languages']
 
 languages:        ['es', 'en']
 
