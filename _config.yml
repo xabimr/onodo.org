@@ -12,11 +12,11 @@ relative_permalinks: true
 # Setup
 title:            Onodo
 tagline:          Análisis de redes para todos
-url:              https://onodo.org
+url:              http://onodo.org
 baseurl:          
 author:
   name:           Civio
-  url:            https://civio.es
+  url:            http://civio.es
   email:          contacto@civio.es
 
 # Custom vars
