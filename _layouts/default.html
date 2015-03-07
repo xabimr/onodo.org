@@ -13,17 +13,21 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="{{ site.baseurl }}"><h1>{{ site.title }}</h1></a>
+        {% if page.language == "es" %}
+          <a class="navbar-brand" href="{{ site.url }}"><h1>{{ site.title }}</h1></a>
+        {% else %}
+          <a class="navbar-brand" href="{{ site.url }}/en"><h1>{{ site.title }}</h1></a>
+        {% endif %}
       </div>
 
       <div class="lang-selector">
         <ul class="nav navbar-nav">
           {% if page.language == "es" %}
-          <li><a class="active" href="{{ site.baseurl }}" title="Español">ES</a></li>
-          <li><a href="{{ site.baseurl }}/en" title="English">EN</a></li>
+          <li><a class="active" href="{{ site.url }}" title="Español">ES</a></li>
+          <li><a href="{{ site.url }}/en" title="English">EN</a></li>
           {% else %}
-          <li><a href="{{ site.baseurl }}" title="Español">ES</a></li>
-          <li><a class="active" href="{{ site.baseurl }}/en" title="English">EN</a></li>
+          <li><a href="{{ site.url }}" title="Español">ES</a></li>
+          <li><a class="active" href="{{ site.url }}/en" title="English">EN</a></li>
           {% endif %}
         </ul>
       </div>
