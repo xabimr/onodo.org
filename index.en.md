@@ -35,10 +35,28 @@ title: Home
     </div>
   </div>
   <div class="row text-center">
-    <div class="well">We will be building in Onodo during 2015. If you are interested and would like to receive more information you can contact us in <a href="mailto:contacto@civio.es">contacto@civio.es</a>. Your participation is important.
+    <div class="well">
+      <p>We will be building in Onodo during 2015. If you are interested and would like to receive more information you can subscribe to our mailing list. <strong>Your participation is important</strong>.</p>
+      <!-- Begin MailChimp Signup Form -->
+      <div id="mc_embed_signup">
+        <form action="//civio.us4.list-manage.com/subscribe/post?u=9416fe6b76f2c3f985c1f8e0f&amp;id=d9f51512d0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <label for="mce-EMAIL">Subscribe to our mailing list</label>
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_9416fe6b76f2c3f985c1f8e0f_d9f51512d0" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+          </div>
+        </form>
+      </div>
+      <!--End mc_embed_signup-->
     </div>
   </div>
 </div>
+
+{% comment %}
+{% include news.html %}
+{% endcomment %}
 
 <div class="partners">
   <div class="container">
