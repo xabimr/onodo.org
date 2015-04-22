@@ -36,7 +36,7 @@ title: Home
   </div>
   <div class="row text-center">
     <div class="well">
-      <p>Estaremos trabajando en Onodo durante 2015 y principios de 2016, así que, si estás interesado y quieres recibir más información regístrate en nuestra lísta de correo. <strong>Tu participación es importante</strong>.</p>
+      <p>Estaremos trabajando en Onodo durante 2015 y principios de 2016, así que, si estás interesado y quieres recibir más información, regístrate en nuestra lísta de correo. <strong>Tu participación es importante</strong>.</p>
       <!-- Begin MailChimp Signup Form -->
       <div id="mc_embed_signup">
         <form action="//civio.us4.list-manage.com/subscribe/post?u=9416fe6b76f2c3f985c1f8e0f&amp;id=d9f51512d0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
